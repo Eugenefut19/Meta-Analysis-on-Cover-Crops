@@ -51,7 +51,8 @@ map_plot= ggplot() +
 map_plot
 #Our dataset may be biased
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/6cac845a-4120-48dc-b407-a80445a23474)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/759f9121-ca48-4216-8709-3f8ac3a2afe6)
+
 
 #Effect size
 ```{r}
@@ -80,7 +81,7 @@ c_data=data %>%
 c_data
 
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/f11614d1-c398-48a5-b11c-cafac1624791)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/8b0c4b85-ec9b-4871-8c6a-c9a13f627897)
 
 ##Gives the count 
 ```{r}
@@ -105,7 +106,7 @@ summary(predator.model.d)
 
 forest(predator.model.d)
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/74e71735-d76b-44fd-9269-8640651f74ff)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/b4616651-7353-45e8-a18e-11443e10d30a)
 
 ##Pest Diversity
 ```{r}
@@ -121,7 +122,8 @@ summary(predator.model.d)
 
 forest(predator.model.d)
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/c0616519-4d0b-4a7c-abd6-aede35921735)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/e7d02dcd-704f-46f8-9a0a-9e203da50328)
+
 
 
 ##Diversity of All Insects
@@ -142,7 +144,7 @@ mono.diversity.model= rma.mv(yi, vi, data=data.diversity, random=~1|doi, method=
 
 
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/fc6f40c8-deac-4863-8476-c22a2b697eb4)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/8ef4ff15-d606-4a8e-a554-df416f5f27cd)
 
 
 #Abundance
@@ -158,7 +160,8 @@ summary(predator.model.a)
 
 forest(predator.model.a, cex=0.5, order="obs")
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/1ba72280-ce30-4e4f-ab0a-ad0bddbd55e2)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/7b163595-35cf-46c1-9eac-29df3b82edd6)
+
 
 ##Pest Abundance
 ```{r}
@@ -172,7 +175,8 @@ summary(pest.model.a)
 forest(pest.model.a, cex=0.5, order="obs")
 
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/4be4a995-a50d-4730-9003-3bb41ea0f558)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/9ccce26e-7e8a-4a79-b43c-fe6c366fac10)
+
 
 #Mono vs Polyculture
 
@@ -184,7 +188,8 @@ summary(mono.pests.metafor)
 
 forest(mono.pests.metafor$b, ci.lb=mono.pests.metafor$ci.lb, ci.ub=mono.pests.metafor$ci.ub, slab=c("Monoculture", "Polyculture"))
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/27d9602e-7666-48b6-9c50-31542b916d3b)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/5e16ab58-18b6-465a-b43a-6e4c0fb823c5)
+
 
 ##Mono vs Polyculture in Pests Abundance
 ```{r}
@@ -196,9 +201,11 @@ forest(mono.pests.metafor)
 forest(mono.pests.metafor$b, ci.lb=mono.pests.metafor$ci.lb, ci.ub=mono.pests.metafor$ci.ub, slab=c("Monoculture", "Polyculture"))
 
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/d2d7b111-829d-4ecb-b9d3-16b52f424cc5)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/f8188bd1-4c45-4b58-a9ed-272e168c53df)
 
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/62ddc189-48a7-4cfb-adb1-77d6cb23f045)
+
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/89ba0fef-dad6-43a5-9d69-84be05945f28)
+
 
 ##Mono vs Polycultrue in Predator Diversity
 ```{r}
@@ -208,7 +215,8 @@ summary(mono.predator.metafor)
 
 forest(mono.predator.metafor$b, ci.lb=mono.predator.metafor$ci.lb, ci.ub=mono.predator.metafor$ci.ub, slab=c("Monoculture", "Polyculture"))
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/54382982-90d8-4091-84b7-3fc0de267c28)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/7c911cfe-f72d-43c7-8123-0c73f92dedd9)
+
 
 ##Mono vs Polyculture in Predator Abundance
 ```{r}
@@ -217,7 +225,7 @@ summary(mono.predator.metafor)
 
 forest(mono.predator.metafor$b, ci.lb=mono.predator.metafor$ci.lb, ci.ub=mono.predator.metafor$ci.ub, slab=c("Monoculture", "Polyculture"))
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/40d78141-93b8-41a1-85fa-913f614e4924)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/7064161b-ee18-41f8-93b8-76823b981056)
 
 #Overall Insects Diversity Poly vs Mono
 ```{r}
@@ -230,7 +238,7 @@ summary(diversity.metafor)
 
 forest(diversity.metafor$b, ci.lb=diversity.metafor$ci.lb, ci.ub=diversity.metafor$ci.ub, slab=c("Monoculture", "Polyculture"))
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/32d6b838-bde3-4116-8063-88ac4f497c3b)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/bac715dd-db9c-44f3-824b-ef2c9c90f995)
 
 #Synchronocity
 
@@ -242,7 +250,7 @@ summary(yes.sync)
 
 forest(yes.sync$b, ci.lb= yes.sync$ci.lb, ci.ub=yes.sync$ci.ub, slab= c("Synchrnous", "Not Synchronous"))
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/5de216f7-df55-41fc-9587-b7a7294b6b3b)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/c6c8b7e1-2d8b-4d82-a4c7-030467aef905)
 
 #Other Visualizations
 
@@ -256,7 +264,7 @@ insecticide.data= data %>%
   
 insecticide.data
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/cd725fef-c3ff-4988-8c38-65795615931f)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/5f6fa22e-231b-4e92-b90a-f3993f21f3d2)
 
 ##Pie Chart of Different Crop Groups
 ```{r}
@@ -274,7 +282,7 @@ crop.group.plot= data %>%
 
 crop.group.plot
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/604843ea-95e3-41ea-98ce-3b7f46db821d)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/6776efe3-9509-4936-95d4-fd3ab1386ede)
 
 ##Different types of Crops Grown
 ```{r}
@@ -292,5 +300,5 @@ crop.species.plot= data %>%
 
 crop.species.plot
 ```
-![image](https://github.com/Eugenefut19/Arthropod/assets/134546229/4003dadb-01e7-4095-8c4a-81169cd17994)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/2be46afe-27f2-4c68-81d8-e830683fc5c3)
 **

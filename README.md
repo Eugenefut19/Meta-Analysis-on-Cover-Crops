@@ -1,5 +1,5 @@
 
-**#The Effects of Cover Crops on Insect Biodiversity- A Meta-Analysis
+#The Effects of Cover Crops on Insect Biodiversity- A Meta-Analysis
 ---
 title: "Project Cover Crop"
 author: "Eugene Ohba"

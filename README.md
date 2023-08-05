@@ -106,7 +106,7 @@ summary(predator.model.d)
 
 forest(predator.model.d)
 ```
-![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/e1c2eb8a-7dee-4b60-bcc9-b859b71c351c)
+![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/3699add9-20c8-4146-bb59-026e48427fd9)
 
 ##Pest Diversity
 ```{r}

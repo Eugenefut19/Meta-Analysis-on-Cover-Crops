@@ -205,7 +205,6 @@ forest(mono.pests.metafor$b, ci.lb=mono.pests.metafor$ci.lb, ci.ub=mono.pests.me
 ```
 ![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/f8188bd1-4c45-4b58-a9ed-272e168c53df)
 
-
 ![image](https://github.com/Eugenefut19/Meta-Analysis-on-Cover-Crops/assets/134546229/89ba0fef-dad6-43a5-9d69-84be05945f28)
 
 
